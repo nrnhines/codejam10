@@ -1,0 +1,85 @@
+NEURON Python Interface Strategies
+Nov 27, 2019 (day 2)
+
+CodeJam#10 2019
+EBRAINS - Integration and Workflows
+26-28 November 2019 | Heidelberg, Germany
+
+Address
+Marsilius-Kolleg
+Im Neuenheimer Feld 130.1
+69120 Heidelberg
+The Marsilius Kolleg is located in the north tower of the Marsilius
+Arkaden (130.1), which is the foremost building on the complex. It lies
+obliquely opposite the German Cancer Research Center (DKFZ). The
+building entrance is on the left, on the east side (towards the campus entrance)
+ In the entryway you will find a sign with directions.
+
+The "integration" topic, this year, will focus, among other aspects, on
+communication between platforms in the framework of the HBP and the use
+of tools and services offered locally and remotely. 
+
+From the perspective of my talk, I would be particularly interested in discussing
+some of the internal NEURON <-> Python interface strategies  (overall, a
+pretty extensive use of the Python C-API and occasional use of ctypes)
+Maybe a series of a half dozen details or so that I present as case
+studies after
+a brief presentation of the overall structure of the NEURON + Python
+architecture. One aspect remains currently a bit inelegant and it would
+be useful
+to me to perhaps get some ideas from others. That is, a NEURON binary
+distribution works with python 2.7, 3,5, 3,6, 3.7 or no python at all. Because
+When a python version is launched and does an 'import neuron', a
+small hoc module is dynamically loaded which dynamically loads the main
+nrniv library which then determines the major version of python and dynamically
+loads the correct libnrnpython2.so or libnrnpython3.so. The latter is  fairly
+generic for all python3.x since it uses something called the python 3
+binary api.
+However, the hoc module, created by setup.py is named differently for each
+Python3 minor version. ie.
+hoc.cpython-35m-darwin.so
+hoc.cpython-36m-darwin.so
+hoc.cpython-37m-darwin.so
+The autotools build system took a long time to build the distribution since
+it involved building the entire package four times (once for python2.7 which
+creates hoc.so) as my --with-nrnpython-only configure arg seems to have some
+unresolved dependency issues.  The experimental cmake build I'm developing
+with Pramod Kumbhar and Omar Awhile very nicely takes care of this issue and
+builds an order of magnitude faster. But I continue to wonder about the
+name convention for python 3 modules.
+
+
+CMake
+Pip - google colab
+colab.research.google.com
+!pip install https://github.com/neuronsimulator/nrn/raw/setuppy/dist/NEURON-7.8-cp36-cp36m-linux-x86_64.whl
+Real push to transform NEURON development so that it is dominated by community
+involvement.
+Centered around github.com/neuronsimulator/nrn
+Contributing guidelines
+Doxygen developer documentation
+Integrated user documentation (submodules)
+Test framework
+Formatting standards
+Travis ci builds and tests
+Had a trial hackathon last week at Yale with 6 local developers, 4 people
+from Bill Lyttons lab at Suny Downstate, and 5 people from the Blue Brain
+Project high performance group.
+Next meeting: May 2020 (in Geneva?)
+
+Current status of the cmake build structure.
+Much more uniform over all architectures.
+Submodule builds for InterViews, Coreneuron, (Sundials(CVODE and IDA))
+
+
+NEURON + Python, overall architecture
+complete Hoc <=> Python
+user defined hoc classes/function available in python
+function calls
+Vector copy vs shared array pointer.
+
+avoid sec=name arg by usein section.method
+
+when suitable return integer instead of double, eg. pc.nhost()
+
+Ask robert
