@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Helvetica
 %%Pages: 1
-%%BoundingBox: 55 402 293 540
+%%BoundingBox: 55 369 293 540
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -510,8 +510,7 @@ Begin %I Pict
 %I cbg u
 %I f u
 %I p u
-%I t
-[ 1 0 0 1 -7.90002 -8.74768 ] concat
+%I t u
 
 Begin %I Text
 %I cfg Black
@@ -519,20 +518,29 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2.5 0 0 2.5 72.8432 626.798 ] concat
+[ 2.5 0 0 2.5 64.9432 618.05 ] concat
 %I
 [
 (Hoc Vector)
 ] Text
 End
 
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 1 0 0 1 -7.48634e-05 -38.4436 ] concat
+
 Begin %I Text
 %I cfg Black
 0 0 0 SetCFg
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 594.798 ] concat
+[ 2 0 0 2 92.693 586.05 ] concat
 %I
 [
 ] Text
@@ -544,20 +552,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 564.798 ] concat
-%I
-[
-(v = h.Vector\(range\(5\)\))
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 100.593 534.798 ] concat
+[ 2 0 0 2 92.693 525.875 ] concat
 %I
 [
 (v.printf\(\))
@@ -570,7 +565,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 504.798 ] concat
+[ 2 0 0 2 92.693 495.699 ] concat
 %I
 [
 (    0    1    2    3    4)
@@ -583,11 +578,39 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 474.798 ] concat
+[ 2 0 0 2 92.693 466.05 ] concat
 %I
 [
 ] Text
 End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 92.693 587.583 ] concat
+%I
+[
+(from neuron import h)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 92.693 556.05 ] concat
+%I
+[
+(v = h.Vector\(range\(5\)\))
+] Text
+End
+
+End %I eop
 
 End %I eop
 

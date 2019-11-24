@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Helvetica
 %%Pages: 1
-%%BoundingBox: 55 156 341 540
+%%BoundingBox: 55 127 341 540
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -510,8 +510,7 @@ Begin %I Pict
 %I cbg u
 %I f u
 %I p u
-%I t
-[ 1 0 0 1 -7.90002 -8.74768 ] concat
+%I t u
 
 Begin %I Text
 %I cfg Black
@@ -519,94 +518,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2.5 0 0 2.5 72.8432 626.798 ] concat
-%I
-[
-(Hoc Vector)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 100.593 594.798 ] concat
-%I
-[
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 100.593 564.798 ] concat
-%I
-[
-(v = h.Vector\(range\(5\)\))
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 100.593 534.798 ] concat
-%I
-[
-(v.printf\(\))
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 100.593 504.798 ] concat
-%I
-[
-(    0    1    2    3    4)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 100.593 474.798 ] concat
-%I
-[
-] Text
-End
-
-End %I eop
-
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
-%I t
-[ 1 0 0 1 -7.90009 -24.4432 ] concat
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2.5 0 0 2.5 72.8432 446.798 ] concat
+[ 2.5 0 0 2.5 64.9431 389.45 ] concat
 %I
 [
 (Numpy data sharing)
@@ -619,11 +531,19 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 414.798 ] concat
+[ 2 0 0 2 92.6929 357.45 ] concat
 %I
 [
 ] Text
 End
+
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t u
 
 Begin %I Text
 %I cfg Black
@@ -631,7 +551,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 384.798 ] concat
+[ 2 0 0 2 92.6929 327.45 ] concat
 %I
 [
 (npv = v.as_numpy\(\))
@@ -644,7 +564,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 354.798 ] concat
+[ 2 0 0 2 92.6929 297.45 ] concat
 %I
 [
 (print \(type\(npv\)\))
@@ -657,7 +577,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 324.798 ] concat
+[ 2 0 0 2 92.6929 267.45 ] concat
 %I
 [
 (    <class 'numpy.ndarray'>)
@@ -670,7 +590,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 294.798 ] concat
+[ 2 0 0 2 92.6929 237.45 ] concat
 %I
 [
 (npv[3] = 42)
@@ -683,7 +603,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 264.798 ] concat
+[ 2 0 0 2 92.6929 207.45 ] concat
 %I
 [
 (print \(v[3]\))
@@ -696,7 +616,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 234.798 ] concat
+[ 2 0 0 2 92.6929 177.45 ] concat
 %I
 [
 (    42.0)
@@ -709,11 +629,123 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 100.593 204.798 ] concat
+[ 2 0 0 2 92.6929 147.45 ] concat
 %I
 [
 ] Text
 End
+
+End %I eop
+
+End %I eop
+
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t u
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2.5 0 0 2.5 64.9432 618.05 ] concat
+%I
+[
+(Hoc Vector)
+] Text
+End
+
+Begin %I Pict
+%I b u
+%I cfg u
+%I cbg u
+%I f u
+%I p u
+%I t
+[ 1 0 0 1 -7.48634e-05 -38.4436 ] concat
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 92.693 586.05 ] concat
+%I
+[
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 92.693 525.875 ] concat
+%I
+[
+(v.printf\(\))
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 92.693 495.699 ] concat
+%I
+[
+(    0    1    2    3    4)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 92.693 466.05 ] concat
+%I
+[
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 92.693 587.583 ] concat
+%I
+[
+(from neuron import h)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 92.693 556.05 ] concat
+%I
+[
+(v = h.Vector\(range\(5\)\))
+] Text
+End
+
+End %I eop
 
 End %I eop
 
