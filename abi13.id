@@ -2,7 +2,7 @@
 %%Creator: idraw
 %%DocumentFonts: Helvetica Helvetica-Bold
 %%Pages: 1
-%%BoundingBox: 27 112 685 578
+%%BoundingBox: 27 89 685 578
 %%EndComments
 
 %%BeginIdrawPrologue
@@ -648,21 +648,12 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 65.8091 153.618 ] concat
+[ 2 0 0 2 65.8091 126.951 ] concat
 %I
 [
 (hoc.abi3.so)
 ] Text
 End
-
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
-%I t
-[ 1 0 0 1 -684.068 -26.2841 ] concat
 
 Begin %I Text
 %I cfg Black
@@ -670,7 +661,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 749.877 277.75 ] concat
+[ 2 0 0 2 65.809 251.466 ] concat
 %I
 [
 (one uses only a subset of the API.)
@@ -683,20 +674,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 749.877 247.75 ] concat
-%I
-[
-(#define PY_LIMITED_API)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 749.877 217.75 ] concat
+[ 2 0 0 2 65.809 191.466 ] concat
 %I
 [
 ] Text
@@ -708,14 +686,12 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 749.877 307.75 ] concat
+[ 2 0 0 2 65.809 281.466 ] concat
 %I
 [
 (Since Python3.2, can use a stable ABI if )
 ] Text
 End
-
-End %I eop
 
 Begin %I Text
 %I cfg Black
@@ -727,6 +703,32 @@ Helvetica-Bold 14 SetF
 %I
 [
 (Binary distribution generality.)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 65.809 189.933 ] concat
+%I
+[
+(cmake arg -DNRN_PYTHON_ABI3=ON)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 65.809 221.466 ] concat
+%I
+[
+(#define PY_LIMITED_API)
 ] Text
 End
 
