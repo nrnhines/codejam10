@@ -561,19 +561,6 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 32.9045 553.416 ] concat
-%I
-[
-(    PyObject* obj = PyObject_GetAttrString\(mod, "_pkl"\);)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
 [ 2 0 0 2 32.9045 523.416 ] concat
 %I
 [
@@ -603,19 +590,6 @@ Helvetica 12 SetF
 [ 2 0 0 2 32.9045 463.416 ] concat
 %I
 [
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 32.9045 433.416 ] concat
-%I
-[
-(    PyTuple_SET_ITEM\(ret, 0, obj\);)
 ] Text
 End
 
@@ -717,6 +691,32 @@ Helvetica 12 SetF
 [ 2 0 0 2 32.9045 13.4158 ] concat
 %I
 [
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 32.9045 553.416 ] concat
+%I
+[
+(    PyObject* pkl = PyObject_GetAttrString\(mod, "_pkl"\);)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 32.9045 433.416 ] concat
+%I
+[
+(    PyTuple_SET_ITEM\(ret, 0, pkl\);)
 ] Text
 End
 

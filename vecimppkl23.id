@@ -529,22 +529,13 @@ Helvetica 12 SetF
 ] Text
 End
 
-Begin %I Pict
-%I b u
-%I cfg u
-%I cbg u
-%I f u
-%I p u
-%I t
-[ 1 0 0 1 22.8726 10.934 ] concat
-
 Begin %I Text
 %I cfg Black
 0 0 0 SetCFg
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 602.482 ] concat
+[ 2 0 0 2 32.9045 613.416 ] concat
 %I
 [
 (static PyObject* hocpickle_reduce\(PyObject* self, PyObject* args\) {)
@@ -557,7 +548,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 572.482 ] concat
+[ 2 0 0 2 32.9045 583.416 ] concat
 %I
 [
 (    PyObject* mod = PyImport_ImportModule\("neuron"\);)
@@ -570,20 +561,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 542.482 ] concat
-%I
-[
-(    PyObject* obj = PyObject_GetAttrString\(mod, "_pkl"\);)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 10.0319 512.482 ] concat
+[ 2 0 0 2 32.9045 523.416 ] concat
 %I
 [
 (    PyObject* ret = PyTuple_New\(3\);)
@@ -596,7 +574,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 482.482 ] concat
+[ 2 0 0 2 32.9045 493.416 ] concat
 %I
 [
 (    PyObject* state = PyTuple_New\(4\);)
@@ -609,7 +587,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 452.482 ] concat
+[ 2 0 0 2 32.9045 463.416 ] concat
 %I
 [
 ] Text
@@ -621,20 +599,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 422.482 ] concat
-%I
-[
-(    PyTuple_SET_ITEM\(ret, 0, obj\);)
-] Text
-End
-
-Begin %I Text
-%I cfg Black
-0 0 0 SetCFg
-%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
-Helvetica 12 SetF
-%I t
-[ 2 0 0 2 10.0319 392.482 ] concat
+[ 2 0 0 2 32.9045 403.416 ] concat
 %I
 [
 (    PyTuple_SET_ITEM\(ret, 2, state\);)
@@ -647,7 +612,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 362.482 ] concat
+[ 2 0 0 2 32.9045 373.416 ] concat
 %I
 [
 ] Text
@@ -659,7 +624,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 332.482 ] concat
+[ 2 0 0 2 32.9045 343.416 ] concat
 %I
 [
 (    Vect* vec = \(Vect*\)\(\(PyHocObject*\)self\)->ho_->u.this_pointer;)
@@ -672,7 +637,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 242.482 ] concat
+[ 2 0 0 2 32.9045 253.416 ] concat
 %I
 [
 (    PyTuple_SET_ITEM\(state, 2, PyInt_FromLong\(vec->capacity\(\)\)\);)
@@ -685,7 +650,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 212.482 ] concat
+[ 2 0 0 2 32.9045 223.416 ] concat
 %I
 [
 (    PyTuple_SET_ITEM\(state, 3, str\);)
@@ -698,7 +663,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 182.482 ] concat
+[ 2 0 0 2 32.9045 193.416 ] concat
 %I
 [
 ] Text
@@ -710,7 +675,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 152.482 ] concat
+[ 2 0 0 2 32.9045 163.416 ] concat
 %I
 [
 (    return ret;)
@@ -723,7 +688,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 122.482 ] concat
+[ 2 0 0 2 32.9045 133.416 ] concat
 %I
 [
 (})
@@ -736,7 +701,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 92.4818 ] concat
+[ 2 0 0 2 32.9045 103.416 ] concat
 %I
 [
 ] Text
@@ -748,7 +713,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 62.4818 ] concat
+[ 2 0 0 2 32.9045 73.4158 ] concat
 %I
 [
 (def _pkl\(arg\):)
@@ -761,7 +726,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 32.4818 ] concat
+[ 2 0 0 2 32.9045 43.4158 ] concat
 %I
 [
 (  return h.Vector\(0\))
@@ -774,7 +739,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 2.48181 ] concat
+[ 2 0 0 2 32.9045 13.4158 ] concat
 %I
 [
 ] Text
@@ -786,7 +751,7 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 272.482 ] concat
+[ 2 0 0 2 32.9045 283.416 ] concat
 %I
 [
 (        vector_vec\(vec\), vec->capacity\(\) * sizeof\(double\)\);)
@@ -799,14 +764,38 @@ Begin %I Text
 %I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
 Helvetica 12 SetF
 %I t
-[ 2 0 0 2 10.0319 302.482 ] concat
+[ 2 0 0 2 32.9045 313.416 ] concat
 %I
 [
 (    Pyobject* str = PyBytes_FromStringAndSize\(\(const char*\))
 ] Text
 End
 
-End %I eop
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 32.9045 553.416 ] concat
+%I
+[
+(    PyObject* pkl = PyObject_GetAttrString\(mod, "_pkl"\);)
+] Text
+End
+
+Begin %I Text
+%I cfg Black
+0 0 0 SetCFg
+%I f -*-helvetica-medium-r-normal-*-12-*-*-*-*-*-*-*
+Helvetica 12 SetF
+%I t
+[ 2 0 0 2 32.9045 433.416 ] concat
+%I
+[
+(    PyTuple_SET_ITEM\(ret, 0, pkl\);)
+] Text
+End
 
 End %I eop
 
